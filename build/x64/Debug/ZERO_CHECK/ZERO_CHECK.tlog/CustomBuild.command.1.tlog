@@ -1,0 +1,10 @@
+^E:\01. GITHUB\04. GAMBLE_PUANG\GAMBLE_PUANG\BUILD\CMAKEFILES\543E391662ACB6B5B80F1C1B0E440BD7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/01. github/04. gamble_puang/Gamble_Puang/gamble_puang/gamble_puang" "-BE:/01. github/04. gamble_puang/Gamble_Puang/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/01. github/04. gamble_puang/Gamble_Puang/build/GamblePuang.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

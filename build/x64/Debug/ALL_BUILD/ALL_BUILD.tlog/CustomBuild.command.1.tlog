@@ -1,0 +1,10 @@
+^E:\01. GITHUB\04. GAMBLE_PUANG\GAMBLE_PUANG\GAMBLE_PUANG\GAMBLE_PUANG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/01. github/04. gamble_puang/Gamble_Puang/gamble_puang/gamble_puang" "-BE:/01. github/04. gamble_puang/Gamble_Puang/build" --check-stamp-file "E:/01. github/04. gamble_puang/Gamble_Puang/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

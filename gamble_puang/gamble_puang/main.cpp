@@ -3,6 +3,7 @@
 
 int main()
 {
+	system("chcp 65001");
 	do
 	{
 		switch (game_state)
